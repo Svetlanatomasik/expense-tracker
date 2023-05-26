@@ -23,7 +23,7 @@ const ExpenseForm = (props) => {
 
     const expenseData = {
       title: enteredTitle,
-      amount: +enteredAmount, //When adding multiple values, those values are added as strings instead of numbers so I enforce a number conversion.
+      amount: +enteredAmount, 
       date: new Date(enteredDate),
     };
 
